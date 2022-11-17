@@ -1,0 +1,124 @@
+body{
+    background-image: url(./mainimages/backgroundgif.webp);
+}
+ul{
+    margin-right: 3.5em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+li{
+    display: inline-block;
+    border: 2px solid rgb(14, 36, 165);
+    width:120px;
+    height: 100px;
+    list-style: none;
+    margin: 2em;
+    padding: 5em;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;  
+}
+
+#carouselExampleIndicators{
+    width: 40em;
+}
+
+.periods_issue{
+    background-image:url(./images/istockphoto-1299754150-612x612.jpeg);
+    background-size: 285px;
+    background-repeat: no-repeat;
+}
+.pregnancy_issue{
+    background-image: url(./images/pregnant.jpeg);
+    background-size: 290px;
+    background-repeat: no-repeat;
+}
+.breast_cancer{
+    background-image: url(./images/breast_cancer.png);
+    background-size: 390px;
+    background-repeat: no-repeat;
+}
+.heart_issue{
+    background-image: url(./images/heart_issue.jpeg);
+    background-size: 290px;
+    background-repeat: no-repeat;
+}
+.pcos_pcod{
+    background-image: url(./images/pcos_pcod.jpeg);
+    background-size: 460px;
+    background-repeat: no-repeat;
+}
+.teen_changes{
+    background-image: url(./images/adolescent_changes.jpeg);
+    background-size: 290px;
+    background-repeat: no-repeat;
+}
+.depression_anxiety{
+    background-image: url(./images/depression_anxiety.jpeg);
+    background-size: 460px;
+    background-repeat: no-repeat;
+}
+.mood_swings{
+    background-image: url(./images/mood_swings.jpeg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+.ovarian_cancer{
+    background-image: url(./images/ovarian_cancer.jpeg);
+    background-size: 300px;
+    background-repeat: no
+}
+.assistance{
+    width: 22em;
+    background-image: url(./images/assistance.jpeg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.assistance>button{
+    width: 15em;
+    margin-left: 4em;
+}
+button{
+    background-color: rgb(172, 61, 216);
+    font-size: 15px;
+    position: absolute;
+    margin-top: 8em;
+    width: 10em;
+    height: 3.5em;
+    margin-right: 100em;
+    border: 2px solid black;
+    border-radius: 1em;
+}
+
+button:hover{
+    border: 2px solid white;
+}
+#mainImg{
+    width: 1000px;
+    height:500px;
+    margin-left: 15%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;  
+}
+#facts>img{
+    width: 1000px;
+    height:500px;
+    margin-left: 14%;
+}
+
+#problems{
+    margin-top: 5em;
+}
+#factbtn{
+    display:block;
+    margin-left:36%;
+    background-color: rgb(37, 188, 239);
+    width: 25em;  
+    margin-top: 2em;
+}
+#logo{
+    width: 800px;
+    height:220px;
+    margin-left: 22%;
+    margin-bottom: 2em;
+}
